@@ -1,0 +1,54 @@
+header {
+  background: white;
+  height: 50px;
+  width: 100%;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 5px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  background: lightgrey;
+}
+.post {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 30px;
+  background: white;
+  width: 600px;
+  height: 600px;
+}
+.header {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 10%;
+  display: flex;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0px 0px 10px;
+  width: 80%;
+}
+.date {
+  text-align: right;
+  width: 20%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 10px 0px 0px;
+}
+.image {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 70%;
+}
+.footer {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 20%;
+  padding: 10px 6px 0px 10px;
+}
+img {
+  object-fit: contain;
+  width: 100%;
+}
